@@ -1,0 +1,139 @@
+.wrapper {
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(180deg, hsl(350, 100%, 77%), #f7329c);
+  position: relative;
+  overflow: hidden;
+
+  .wave {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+
+    img {
+      width: 100%;
+      z-index: 50;
+    }
+  }
+}
+.container4 {
+  min-height: 500px;
+  width: 100%;
+  background: linear-gradient(180deg, hsl(350, 100%, 77%), #f7329c);
+  padding: 0 0 80px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+
+  .images {
+    width: 100%;
+    max-width: 400px;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  .layer1,
+  .layer2,
+  .layer3 {
+    position: absolute !important;
+    width: 50%;
+  }
+  .layer1 {
+    top: 30%;
+    right: 5%;
+    z-index: 10;
+  }
+  .layer2 {
+    top: 10%;
+    width: 60%;
+    left: 5%;
+    z-index: 5;
+  }
+  .layer3 {
+    z-index: 1;
+    top: 40px;
+    left: 40%;
+  }
+  .text {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    max-width: 600px;
+    margin: auto;
+
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+      color: #fef1f3;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .container4 {
+    padding: 80px 0 80px 0;
+    flex-direction: row;
+    gap: 20px;
+
+    .text {
+      text-align: start;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .container4 {
+    min-height: 1000px;
+    padding-top: 0;
+    .images {
+      max-width: 550px;
+
+      .layer1,
+      .layer2,
+      .layer3 {
+        width: 100%;
+      }
+      .layer1 {
+        top: 25%;
+        right: 0;
+
+        max-width: 300px !important;
+        img {
+          max-width: 300px !important;
+          object-fit: cover;
+        }
+      }
+      .layer2 {
+        top: -180px;
+        width: 100%;
+        left: -10%;
+
+        max-width: 500px !important;
+        img {
+          max-width: 500px !important;
+          object-fit: cover;
+        }
+      }
+      .layer3 {
+        z-index: 1;
+        top: 10px;
+        left: 40%;
+        width: 400px;
+      }
+    }
+  }
+}

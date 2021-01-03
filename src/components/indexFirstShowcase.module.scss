@@ -1,0 +1,140 @@
+.container1 {
+  width: 100%;
+  min-height: 800px;
+  background-color: #ff899d;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 180px 10px 0 10px;
+
+  .waveBg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100px;
+    width: 160vw;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+    padding: 0 10px;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+
+    h1 {
+      color: #7e5dfe;
+      font-size: 40px;
+    }
+    p {
+      color: #382158;
+      font-weight: bold;
+      font-size: 20px;
+      max-width: 480px;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      button {
+        width: 280px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        background: #f30070;
+        position: relative;
+        box-shadow: 0 3px 12px 0 rgba(24, 124, 255, 0.27);
+        cursor: pointer;
+        overflow: hidden;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 18px;
+        }
+        &:hover {
+          border: 3px solid #fff;
+          background: linear-gradient(180deg, #f35900, #c00d0d);
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          z-index: 999;
+          width: 200px;
+          height: 20px;
+          background: #fff;
+          transform: rotate(60deg);
+          left: -60%;
+          bottom: -90px;
+        }
+        &:hover::after {
+          animation: shineBtn 0.5s ease;
+        }
+        @keyframes shineBtn {
+          from {
+            left: -60%;
+            bottom: -90px;
+          }
+          to {
+            bottom: 100px;
+            left: 100%;
+          }
+        }
+      }
+      .secondButton {
+        background: #18aeff;
+        width: 250px;
+
+        &:hover {
+          background: linear-gradient(180deg, #4bc9fe, #5052fe);
+        }
+      }
+    }
+    .mobileImage {
+      width: 100vw;
+      max-width: 600px;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .container1 {
+    .waveBg {
+      left: -10%;
+      width: 120vw;
+    }
+  }
+}
+@media (min-width: 800px) {
+  .container1 {
+    .waveBg {
+      top: -200px;
+    }
+    .content {
+      h1 {
+        font-size: 80px;
+      }
+      p {
+        max-width: none;
+      }
+      .buttons {
+        flex-direction: row;
+      }
+      .mobileImage {
+        max-width: 1200px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .container1 {
+    .waveBg {
+      top: -500px;
+    }
+  }
+}

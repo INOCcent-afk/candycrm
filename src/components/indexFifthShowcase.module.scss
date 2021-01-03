@@ -1,0 +1,38 @@
+.container5 {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #fff 80%, #e38dee 20%);
+
+  .title {
+    color: #975dff;
+    font-size: 36px;
+    margin: 50px auto;
+    max-width: 500px;
+  }
+
+  .videosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container5 {
+    .title {
+      font-size: 68px;
+      margin: 200px auto 120px auto;
+      max-width: 1200px;
+    }
+
+    .videosContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 100px;
+      max-width: 1600px;
+      margin: auto;
+    }
+  }
+}
