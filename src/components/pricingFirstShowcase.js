@@ -4,8 +4,11 @@ const PricingFirstShowcase = () => {
   return (
     <div className={style.container1}>
       <div className={style.title}>
-        <h1>Get started with Honey</h1>
-        <h5>Try it for free and then dial it to your company’s needs</h5>
+        <h1>Get started with Candy</h1>
+        <h5>
+          Try it for free and Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+        </h5>
       </div>
       <div className={style.firstCircle}></div>
       <div className={style.secondCircle}></div>

@@ -63,14 +63,16 @@ const IndexThirdShowcase = () => {
         <div className={style.content}>
           <h1>The visibility to solve your biggest problems</h1>
           <p>
-            If you’re an IT service provider, you know what your problem is…
-            it’s sales and marketing. If you want to fix that problem you need
-            to approach it like any other problem: Identify the source.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            saepe quisquam, tempora assumenda deserunt exercitationem doloremque
+            quo velit, quos dicta ab. Optio, dolorum ratione velit dolor cum sit
+            incidunt corporis!
           </p>
           <p>
-            That’s why Honey’s entire foundation is built on visibility. You can
-            finally have complete visibility over your sales and marketing team,
-            making the source of the problem clear.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptatibus aperiam dolorum quas vitae nemo adipisci quae suscipit
+            quibusdam quos ab necessitatibus quisquam, veritatis et? Vel ipsam
+            vero sapiente voluptates commodi.
           </p>
         </div>
         <div className={style.container3Image}>

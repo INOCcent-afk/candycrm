@@ -32,9 +32,9 @@ const IndexSixthShowcase = () => {
         <div className={style.content}>
           <h1>Lose the migration anxiety</h1>
           <p>
-            Instead of outright replacing what you currently use, our
-            integrations let your favorite apps ride shotgun in your sales and
-            marketing journey.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a
+            dolorem id laboriosam maiores! Incidunt nemo quis obcaecati
+            similique quisquam!
           </p>
           <p>Keep them all or replace what you want when you want.</p>
         </div>

@@ -86,10 +86,11 @@ const IndexSeventhShowcase = () => {
       <div className={style.secondCircle}></div>
       <div className={style.content}>
         <div className={style.contentTitle}>
-          <h1>Simplify marketing relationships through platform unity</h1>
+          <h1>Simplify marketing relationships through platform Lorem</h1>
           <p>
-            Honey takes the complexity out of vendor marketing relationships by
-            creating a single platform that benefits both vendors and partners.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            obcaecati quisquam nam dolor sint soluta distinctio optio suscipit
+            iure beatae?
           </p>
           <p>Don't believe us? These companies do.</p>
         </div>

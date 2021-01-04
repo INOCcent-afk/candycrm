@@ -7,12 +7,12 @@ const Footer = () => {
       <footer>
         <ul>
           <p>Contact Us</p>
-          <li>101 E Park Blvd. Suite 101</li>
-          <li>Plano, TX 75074</li>
-          <li>Phone: (214) 299-7399</li>
+          <li>102 R Blue Blvd. Suite 441</li>
+          <li>Plato, TC 86023</li>
+          <li>Phone: (300) 229-7499</li>
           <ul>
-            <p className={style.logo}>honey</p>
-            <li>Copyright @ 2020 Honey LLC.</li>
+            <p className={style.logo}>Candy</p>
+            <li>Copyright @ 2020 Candy LCC.</li>
           </ul>
         </ul>
         <ul>

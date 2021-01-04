@@ -100,7 +100,7 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.logoContainer}>
           <h1>
-            <Link to="/">honey</Link>
+            <Link to="/">Candy</Link>
           </h1>
           <li className={styles.dropdown}>
             <Link to="/">Features</Link>

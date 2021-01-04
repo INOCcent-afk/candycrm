@@ -7,16 +7,17 @@ const IndexSecondShowcase = () => {
       <div className={style.content}>
         <h3>Created to overcome your struggles</h3>
         <p>
-          Honey was developed with the care and attention of a team who has
+          Candy was developed with the care and attention of a team who has
           worked alongside MSPs of every size to help them achieve their sales
           and marketing dreams.
         </p>
         <p>
-          And along the way, we kept seeing the same struggles. Visibility,
-          accountability, manual data management — no matter the company, they
-          had to put in the work to clear the same bottlenecks.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+          libero eligendi ipsum totam, dolorem non maxime illum dolore facilis
+          facere? Omnis autem commodi explicabo consectetur qui recusandae alias
+          libero ut.
         </p>
-        <p>Not anymore. Today, there's Honey.</p>
+        <p>Not anymore. Today, there's Candy.</p>
       </div>
     </div>
   )

@@ -25,11 +25,11 @@ const IndexFirstShowcase = () => {
         alt="wave-svg"
       />
       <div className={style.content}>
-        <h1>Say Hello to Honey</h1>
-        <p>A super sweet sales & marketing app for IT service providers</p>
+        <h1>Say Hello to Candy</h1>
+        <p>A super sweet sales & Lorem ipsum dolor sit amet consectetur.</p>
         <div className={style.buttons}>
           <button>
-            <a href="#">Try Honey for Free</a>
+            <a href="#">Try Candy for Free</a>
           </button>
           <button className={style.secondButton}>
             <a href="#">Watch Demo</a>

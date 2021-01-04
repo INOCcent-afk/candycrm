@@ -51,13 +51,13 @@ const IndexFourthShowcase = () => {
         <div className={style.text}>
           <h1>Take back your time with automation</h1>
           <p>
-            Honey has the power to automate pretty much everything. From sales
-            follow-up to marketing plans, data entry, and beyond, Honey’s got
-            the power to make your sales and marketing team super human.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
+            ratione veniam amet similique eaque, mollitia quod dolorum ducimus
+            nostrum hic iure praesentium maxime laboriosam nam!
           </p>
           <p>
-            You've spent all this time empowering your service delivery team
-            with automation. Honey is here to make them jealous.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam
+            reprehenderit in alias molestias quaerat officiis eius unde.
           </p>
         </div>
       </div>
