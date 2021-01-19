@@ -127,7 +127,7 @@ const Header = () => {
             <Link to="/pricing">Pricing</Link>
           </li>
           <li>
-            <Link to="/">Reviews</Link>
+            <Link to="/reviews">Reviews</Link>
           </li>
         </div>
         <div onClick={showMobileNav} className={styles.hamburger}>
@@ -177,7 +177,7 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/reviews">
             <p>*</p>Reviews
           </Link>
         </li>

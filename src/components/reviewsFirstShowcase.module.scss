@@ -1,0 +1,65 @@
+.wrapper {
+  min-height: 600px;
+  width: 100%;
+  background: linear-gradient(-120deg, #7a5bff, #e38dee);
+  display: flex;
+  justify-content: center;
+
+  .content {
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+    gap: 20px;
+    max-width: 650px;
+    h1 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 18px;
+    }
+
+    .leftQuote,
+    .rightQuote {
+      display: none !important;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    min-height: 800px;
+    gap: 40px;
+    .content {
+      min-height: 800px;
+      max-width: 1400px;
+
+      h1 {
+        font-size: 81px;
+        max-width: 700px;
+      }
+      p {
+        font-size: 30px;
+      }
+
+      .leftQuote,
+      .rightQuote {
+        display: block !important;
+        position: absolute !important;
+      }
+      .leftQuote {
+        left: 20px;
+      }
+      .rightQuote {
+        top: 300px;
+        right: 20px;
+      }
+    }
+  }
+}
